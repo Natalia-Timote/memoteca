@@ -1,4 +1,4 @@
-# 🧠 Memoteca
+# 🔖 Memoteca
 
 A **Memoteca** é um espaço para **armazenar e organizar trechos de músicas, citações de livros e suas melhores ideias em um só lugar**. O projeto foi desenvolvido com foco em **JavaScript moderno (ES6+)**, aplicando **operações CRUD com requisições HTTP**, **manipulação de dados em tempo real** e **boas práticas** de desenvolvimento web.
 
@@ -40,23 +40,26 @@ A **Memoteca** permite criar, visualizar, editar, remover e favoritar registros,
 ## 🖼️ Imagens da Aplicação
 Uma prévia das principais telas da aplicação **Memoteca**:
 
+**🌐 Acesse o Projeto Online**
+
+O projeto está disponível para visualização na **Vercel**. Clique no link abaixo para acessar:
+
+<a href="https://memoteca-sepia.vercel.app/" target="_blank">![Static Badge](https://img.shields.io/badge/Vercel-project?style=for-the-badge&color=A91079)</a>
+
 **📖 Tela Inicial**
 
 A tela de boas-vindas, onde os usuários têm uma primeira impressão do aplicativo.
 
-![Tela Inicial](assets/imagens/memoteca-home.png)
+<img src="assets/imagens/memoteca-home.png" alt="Página da Memoteca" width="600"/>
 
 **📝 Registro de Mensagens**
 
 Área onde os usuários podem escrever e salvar seus pensamentos personalizados.
 
-![Tela de Registro de Mensagens](assets/imagens/memoteca-add.png)
+<img src="assets/imagens/memoteca-add.png" alt="Registro de mensagens na Memoteca" width="600"/>
 
 **🔖 Mural de Recados**
 
 Um espaço especial onde todas as mensagens ficam disponíveis para visualização.
 
-![Mural](assets/imagens/memoteca-search.png)
-
-
-
+<img src="assets/imagens/memoteca-search.png" alt="Busca no mural da Memoteca" width="600"/>
