@@ -1,68 +1,62 @@
-![Thumbnail](./thumbnail.png)
+# 🧠 Memoteca
 
-# Memoteca
+A **Memoteca** é um espaço para **armazenar e organizar trechos de músicas, citações de livros e suas melhores ideias em um só lugar**. O projeto foi desenvolvido com foco em **JavaScript moderno (ES6+)**, aplicando **operações CRUD com requisições HTTP**, **manipulação de dados em tempo real** e **boas práticas** de desenvolvimento web.
 
-A Memoteca é um aplicativo organizador de pensamentos e frases que permite cadastrar, listar, editar,  deletar, filtrar e favoritar pensamentos, incluindo informações como conteúdo, autoria e data.
+![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
-## 🔨 Funcionalidades do projeto
+<hr>
 
-`Cadastro de pensamentos`: Permite adicionar novos pensamentos à lista, inserindo informações como conteúdo e autoria.
+## 🚀 Sobre o Projeto
 
-`Listagem de pensamentos`: Exibe os pensamentos cadastrados, permitindo visualizar o texto e a autoria.
+Este projeto foi desenvolvido durante os cursos da Alura:
 
-`Edição de pensamentos`: Permite editar pensamentos existentes, atualizando as informações conforme necessário.
+* "JavaScript: implementando CRUD com requisições HTTP"
+* "JavaScript: evoluindo a sua aplicação com ES6+"
 
-`Exclusão de pensamentos`: Permite remover pensamentos da lista.
+A **Memoteca** permite criar, visualizar, editar, remover e favoritar registros, simulando um ambiente real de trabalho com integração cliente-servidor. Além das **operações CRUD**, a aplicação conta com **busca, manipulação de datas e validações de dados** para garantir consistência.
 
-`Busca typeahead`: Implementa uma funcionalidade de busca com sugestões automáticas, permitindo filtrar pensamentos conforme a pessoa digita.
+## 📚 Objetivos dos cursos
 
-`Favoritar pensamentos`: Adiciona a opção de favoritar pensamentos, destacando os favoritos na lista para fácil acesso.
+**👉 JavaScript: implementando CRUD com requisições HTTP**
+* Aprender as bases do desenvolvimento web com JavaScript;
+* Manipular dados com operações CRUD (Create, Read, Update e Delete);
+* Ler, recuperar, criar, editar e deletar dados em uma aplicação;
+* Atualizar dados em tempo real com requisições HTTP e comunicação cliente-servidor;
+* Configurar uma API fake com o **JSON server** para simular um ambiente de desenvolvimento do dia a dia de trabalho;
+* Explorar o **Fetch** e o **Axios** para facilitar suas requisições HTTP em aplicações web.
 
-`Validações de formulário com Regex`: Utiliza expressões regulares para validar campos do formulário, garantindo que os dados inseridos estejam no formato correto antes do envio.
+**👉 JavaScript: evoluindo a sua aplicação com ES6+**
+* Adicionar novas funcionalidades do **ES6+** a uma aplicação, simulando o ambiente de trabalho real;
+* Desenvolver uma funcionalidade de favoritar com o método **PATCH**;
+* Manipular datas em JavaScript, garantindo que elas sejam armazenadas, formatadas e exibidas corretamente;
+* Aplicar validações com expressões regulares (**Regex**) para garantir a consistência dos dados;
+* Utilizar **Sets** em JavaScript para lidar com coleções de valores únicos;
+* Utilizar **includes** e **filter** para implementar uma busca typeahead.
 
-`Cadastro e manipulação de data`: Permite registrar a data do pensamento no momento do cadastro, garantindo que cada pensamento esteja associado a um timestamp.
+## 🛠️ Tecnologias aprofundadas durante o curso
 
-## ✔️ Técnicas e tecnologias utilizadas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="80" height="80"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/>
 
-`JavaScript`: Linguagem de programação utilizada para desenvolver a lógica do aplicativo.
+## 🖼️ Imagens da Aplicação
+Uma prévia das principais telas da aplicação **Memoteca**:
 
-`Fetch API`: Utilizada para realizar requisições HTTP para comunicação com o servidor.
+**📖 Tela Inicial**
 
-`Axios`: Biblioteca usada para facilitar e simplificar as requisições HTTP.
+A tela de boas-vindas, onde os usuários têm uma primeira impressão do aplicativo.
 
-`Node.js`: Plataforma utilizada para executar o ambiente de desenvolvimento.
+![Tela Inicial](assets/imagens/memoteca-home.png)
 
-`JSON Server`: Utilizado para simular um backend e facilitar o desenvolvimento e teste das operações CRUD.
+**📝 Registro de Mensagens**
 
-`CSS`: Utilizado para estilização da interface do aplicativo.
+Área onde os usuários podem escrever e salvar seus pensamentos personalizados.
+
+![Tela de Registro de Mensagens](assets/imagens/memoteca-add.png)
+
+**🔖 Mural de Recados**
+
+Um espaço especial onde todas as mensagens ficam disponíveis para visualização.
+
+![Mural](assets/imagens/memoteca-search.png)
 
 
-## 📁 Link do Figma
 
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/design/Sz1gmmemxqcB3amInL4Ndp/Rebrand-Memoteca-%7C-Curso-CRUD?node-id=148-26&t=FpdmfbiM1i1s6REQ-0).
-
-## 🛠️ Abrir e rodar o projeto
-
-Para executar a API fake, você vai precisar do NodeJS; a versão utilizada foi a 20.12.2.
-
-Instale o JSON Server globalmente (se ainda não estiver instalado):
-
-```bash
-npm install -g json-server
-```
-
-Para executar, abra um novo terminal e, dentro da pasta backend, execute:
-
-```bash
-npm start
-```
-
-Acesse o backend localmente em seu navegador:
-
-http://localhost:3000
-
-Para executar o frontend, abra o projeto no Visual Studio Code. Com a extensão Live Server instalada, clique com o botão direito no arquivo index.html e selecione "Open with Live Server" no menu de contexto.
-
-Acesse o frontend localmente em seu navegador:
-
-http://localhost:5500
